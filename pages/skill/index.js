@@ -1,7 +1,9 @@
+import Skill from "../../components/skill/skill"
+
 const SkillPage = () => {
     return (
         <div>
-            <p> This is the skill Page </p>
+            <Skill />
         </div>
     )
 }

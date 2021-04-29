@@ -19,7 +19,7 @@ import {
 
 import classes from "./main-header.module.css";
 
-const items = ["User Profile", "Skills", "Education", "Projects", "Contacts"];
+const items = ["User Profile", "Skill", "Education", "Project", "Contact"];
 const icons = [
   <Person />,
   <Beenhere />,

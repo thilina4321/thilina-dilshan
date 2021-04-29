@@ -1,0 +1,32 @@
+.section{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.26);
+    margin-bottom: 20px;
+    
+}
+
+.image{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img{
+    border-radius: 50%;
+}

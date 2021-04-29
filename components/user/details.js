@@ -11,7 +11,6 @@ const UserDetails = () => {
     <section className={classes.section}>
       <div className={classes.image}>
         <a href="tel:0764622740">
-          {" "}
           <Call color="primary" />{" "}
         </a>
         <Image
