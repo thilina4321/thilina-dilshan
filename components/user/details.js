@@ -31,7 +31,7 @@ const UserDetails = () => {
         <p> Biyagama, Sri Lanka </p>
       </div>
 
-        <hr style={{height:2, backgroundColor:'green', width:'100%'}} />
+        <hr style={{height:4, backgroundColor:'green', width:'100%'}} />
 
       <div className={classes.developing} >
         <p> I am full stack web and Mobile application developing student who is working with 

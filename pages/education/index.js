@@ -1,7 +1,9 @@
+import Education from "../../components/education/education"
+
 const EducationPage = () => {
     return (
         <div>
-            <p> This is the education Page </p>
+            <Education />
         </div>
     )
 }
