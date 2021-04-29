@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.drawer{
+    color: white;
+    flex: 1;
+}
+
+.logo{
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+@media (min-width:700px){
+    .main{
+        visibility: hidden;
+    }
+}
+
+.item{
+    cursor: pointer;
+}
+
+.item:hover{
+    background-color: rgba(128, 128, 128, 0.26);
+}

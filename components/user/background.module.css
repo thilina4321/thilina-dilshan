@@ -1,0 +1,31 @@
+.section {
+    height: 50vh;
+    color: white;
+    background-image: linear-gradient(to bottom left , rgba(72, 148, 72, 0.7),
+            rgba(51, 245, 51, 0.9)), url('/code.PNG');
+    background-position: top;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.p{
+    margin: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+@media (min-width:500px){
+    .name{
+        font-size: 50px;
+    }
+}
