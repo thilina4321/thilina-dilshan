@@ -1,12 +1,14 @@
-import MainHeader from "./main-header"
+import Desktop from "./desktop";
+import MainHeader from "./main-header";
 
 const Layout = (props) => {
-    return (
-        <div>
-        <MainHeader />
-            {props.children}
-        </div>
-    )
-}
+  return (
+    <div>
+      <MainHeader />
+      <Desktop />
+      {props.children}
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;

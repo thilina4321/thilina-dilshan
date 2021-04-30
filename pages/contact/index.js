@@ -31,7 +31,7 @@ const contacts = [
         <LinkedIn color="primary" />
       </a>
     ),
-    content: "dilshanthilina53@gmail.com",
+    content: "Thilina Dilshan",
   },
 ];
 const ContactPage = () => {

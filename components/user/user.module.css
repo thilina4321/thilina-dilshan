@@ -1,0 +1,9 @@
+.section{
+    margin-top: 56px;
+}
+
+@media (min-width:700px){
+    .section{
+        margin-top: 0;
+    }
+}
