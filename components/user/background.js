@@ -4,12 +4,11 @@ const BackGround = () => {
   return (
     <section className={classes.section}>
       <h1 className={classes.name}> Hey! I am Thilina </h1>
-      <p className={classes.p}>
-        I am student at Institute Of Technology University Of Moratuwa..{" "}
-      </p>
-      <p className={classes.p}>
-        I am a full stack web/mobile developing student.
-      </p>
+      <h4 className={classes.h4}>
+        A passionating and hard working IT student who is seeking for an opportunity
+        to learn more about software development......
+      </h4>
+      
       
     </section>
   );

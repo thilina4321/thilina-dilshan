@@ -8,6 +8,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .name{
@@ -17,7 +18,8 @@
     margin-bottom: 20px;
 }
 
-.p{
+.h4{
+    font-size: 20px;
     margin: 5px;
     margin-bottom: 10px;
     font-weight: bold;

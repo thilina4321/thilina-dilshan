@@ -1,6 +1,8 @@
 import classes from "./contact.module.css";
 
-import { Email, Call, LinkedIn } from "@material-ui/icons";
+import Email from "@material-ui/icons/Email";
+import Call from "@material-ui/icons/Call";
+import LinkedIn from "@material-ui/icons/LinkedIn";
 
 const contacts = [
   {
@@ -33,7 +35,7 @@ const contacts = [
     ),
     content: "Thilina Dilshan",
   },
-];
+ ];
 const ContactPage = () => {
   return (
     <section className={classes.section}>

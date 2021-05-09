@@ -3,10 +3,9 @@ import Image from "next/image";
 
 const images = [
   { img: "/js.png" , name:'Javascript'},
-  {img:"/ts.png", name:'TypeScript'},
   { img: "/angular.png", name:'Angular'},
   {img:"/node.jpeg", name:'Node.Js'},
-  {img: "/vue.jpg", name:'Vue.Js'},
+
   {img:"/flutter.png", name:'Flutter'},
   {img:"/react.jpg", name:'React'},
 ];
