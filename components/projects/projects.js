@@ -3,7 +3,7 @@ import Project from "./project";
 
 const Projects = (props) => {
   return (
-    <section>
+    <section className={classes.sec}>
       {props.projects.map((pro) => {
         const { id, name, proImage, description, link, gitLink, isHost } = pro
 
