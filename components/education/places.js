@@ -17,7 +17,7 @@ const places = [
   {
     name: "Asoka College Colombo",
     image: "/asoka.jpg",
-    time: "2018 to 2013",
+    time: "2008 to 2013",
     context: "Grade 6 to GCE Ordinary Level",
   },
   {

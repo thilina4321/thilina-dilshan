@@ -39,9 +39,8 @@ const projects = [
     name: "Weather app",
     description:
       `This is a weather application I created using next.js. It is a project idea that 
-      I got from the LinkedIn post. As it is small project I think to create the 
-      application with simple functionalities. I got the weather information from openweather map API.
-      I use fetch API for the data fetching`,
+      I got from the LinkedIn post. I got the weather information from openweather map API.
+  `,
     gitLink: "https://github.com/thilina4321/react-weather-app",
     link: "https://react-weather-app-ivb8m589h-thilina4321.vercel.app/",
     proImage: "/weather.PNG", 
