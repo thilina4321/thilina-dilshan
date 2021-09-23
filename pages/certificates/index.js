@@ -1,9 +1,9 @@
 const Certificates = () => {
-    return (
-        <div>
-            <h1> This is the Certificates Sections </h1>
-        </div>
-    )
-}
+  return (
+    <section className={classes.section}>
+      <h1> This is the Certificates Sections </h1>
+    </section>
+  );
+};
 
-export default Certificates
+export default Certificates;
