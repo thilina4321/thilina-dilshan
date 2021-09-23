@@ -30,6 +30,11 @@ const Desktop = () => {
           <p> CONTACT </p>
         </a>
       </Link>
+      <Link href="/certificates">
+        <a>
+          <p> CERTIFICATES </p>
+        </a>
+      </Link>
     </header>
   );
 };

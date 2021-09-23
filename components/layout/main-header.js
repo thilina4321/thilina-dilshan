@@ -12,18 +12,34 @@ import Beenhere from "@material-ui/icons/Beenhere";
 import Bookmark from "@material-ui/icons/Bookmark";
 import ImportantDevices from "@material-ui/icons/ImportantDevices";
 import ContactMail from "@material-ui/icons/ContactMail";
+import CameraOutlined from "@material-ui/icons/CameraOutlined";
 
 import classes from "./main-header.module.css";
 
-const items = ["User Profile", "Skill", "Education", "Project", "Contact"];
+const items = [
+  "User Profile",
+  "Skill",
+  "Education",
+  "Project",
+  "Contact",
+  "Certificates",
+];
 const icons = [
   <Person />,
   <Beenhere />,
   <Bookmark />,
   <ImportantDevices />,
   <ContactMail />,
+  <CameraOutlined />,
 ];
-const pages = ["/", "/skill", "education", "project", "contact"];
+const pages = [
+  "/",
+  "/skill",
+  "education",
+  "project",
+  "contact",
+  "certificates",
+];
 
 const MainHeader = () => {
   const [open, setOpen] = useState(false);
@@ -51,19 +67,17 @@ const MainHeader = () => {
 
   return (
     <div className={classes.main}>
-      <div className={classes.drawer} >
+      <div className={classes.drawer}>
         <Button onClick={() => toggleDrawer(true)}>
-          <HomeOutlined  color="primary"></HomeOutlined>
+          <HomeOutlined color="primary"></HomeOutlined>
         </Button>
         <Drawer anchor="top" onClose={() => toggleDrawer(false)} open={open}>
           {drawer}
         </Drawer>
       </div>
-      <div className={classes.logo} >
+      <div className={classes.logo}>
         <Link href="/">
-          <a>
-             THILINA 
-          </a>
+          <a>THILINA</a>
         </Link>
       </div>
     </div>
