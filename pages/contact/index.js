@@ -35,7 +35,7 @@ const contacts = [
     ),
     content: "Thilina Dilshan",
   },
- ];
+];
 const ContactPage = () => {
   return (
     <section className={classes.section}>
@@ -48,6 +48,22 @@ const ContactPage = () => {
           </div>
         </div>
       ))}
+      <div
+        style={{
+          display: "flex",
+          width: "80%",
+          margin: "auto",
+          justifyContent: "center",
+        }}
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15842.005470009979!2d79.97769862781902!3d6.950031519764486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25677ddae5c43%3A0x541d92dd5945da68!2sBiyagama!5e0!3m2!1sen!2slk!4v1634278609721!5m2!1sen!2slk"
+          width="600"
+          height="450"
+          allowFullScreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
     </section>
   );
 };
