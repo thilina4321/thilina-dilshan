@@ -4,6 +4,7 @@ import Technologies from "./technologies";
 import Account from "./account";
 
 import classes from "./user.module.css";
+import { useEffect } from "react";
 
 const UserProfile = () => {
   useEffect(() => {
