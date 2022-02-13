@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Call, Email } from "@material-ui/icons";
 import classes from "./details.module.css";
-import { Divider } from "@material-ui/core";
 
 const UserDetails = () => {
   let thisYaer = new Date().getFullYear();
@@ -16,8 +15,8 @@ const UserDetails = () => {
         <Image
           className={classes.img}
           src="/profile.jpg"
-          width={100}
-          height={100}
+          width={200}
+          height={200}
         />
         <a href="mailto:dilshanthilina53@gmail.com">
           {" "}

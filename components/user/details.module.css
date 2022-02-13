@@ -10,7 +10,7 @@
     transform: translateY(-60px);
     z-index: 20;
     background-color: white;
-    max-width: 600px;
+    /* max-width: 600px; */
 }
 
 .image{
@@ -23,6 +23,8 @@
 
 .img{
     border-radius: 50%;
+    width: 60%;
+    height: 60%;
 }
 
 .bio{

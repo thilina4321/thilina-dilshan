@@ -8,25 +8,23 @@
 
 }
 
-.div{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.26);
-    margin-bottom: 20px;
-    
-}
 
 .image{
     width: 100%;
     max-width: 300px;
     padding: 10px;
     text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.26);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
 }
 
-.img{
-    border-radius: 50%;
+
+.skills{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }

@@ -14,7 +14,7 @@ const Skill = () => {
   return (
     <section className={classes.section}>
       <h1> Familiar Technologies </h1>
-      <div className={classes.div}>
+      <div className={classes.skills}>
         {images.map((image, index) => (
           <div key={index} className={classes.image}>
             <Image
