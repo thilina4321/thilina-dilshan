@@ -4,7 +4,7 @@ import classes from "./details.module.css";
 
 const UserDetails = () => {
   let thisYaer = new Date().getFullYear();
-  let year = thisYaer - 1997;
+  let year = thisYaer - 1998;
 
   return (
     <section className={classes.section}>
@@ -29,13 +29,17 @@ const UserDetails = () => {
         <p> Biyagama, Sri Lanka </p>
       </div>
 
-        <hr style={{height:4, backgroundColor:'green', width:'100%'}} />
+      <hr style={{ height: 4, backgroundColor: "green", width: "100%" }} />
 
-      <div className={classes.developing} >
-        <p> I am full stack web and Mobile application developing student who is working with 
-        Angular, React, Next.Js, Flutter and Node.js.
-        And Also I have experience with MySql and Mongoose ODM.
-         </p>
+      <div className={classes.developing}>
+        <p className={classes.des}>
+          {" "}
+          I started my Information Technology journey in 2018/2019 at Institute
+          of technology university of moratuwa as a IT undergraduate. Now I am
+          full stack web and Mobile application developer who is
+          working with Angular, React, Next.Js, Flutter and Node.js. And Also I
+          have experience with MySql and Mongoose ODM.
+        </p>
       </div>
     </section>
   );

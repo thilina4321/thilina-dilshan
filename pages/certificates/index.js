@@ -2,7 +2,7 @@ import classes from "./certificate.module.css";
 
 const Certificates = () => {
   return (
-    <section>
+    <section className={classes.section}>
       <div style={{ textAlign: "center" }}>
         <h1> This is the Certificates Sections </h1>
       </div>

@@ -3,12 +3,13 @@ import classes from "./contact.module.css";
 import Email from "@material-ui/icons/Email";
 import Call from "@material-ui/icons/Call";
 import LinkedIn from "@material-ui/icons/LinkedIn";
+import { Fragment } from "react";
 
 const contacts = [
   {
     name: "Email",
     icon: (
-      <a href="mailto:dilshanthilina53@gmail.com">
+      <a href="mailto:dilshanthilina53@gmail.com" target="_blank">
         <Email color="primary" />
       </a>
     ),
@@ -38,22 +39,26 @@ const contacts = [
 ];
 const ContactPage = () => {
   return (
-    <section className={classes.section}>
-      {contacts.map((contact, index) => (
-        <div className={classes.div} key={index}>
-          <h1> {contact.name} </h1>
-          <div className={classes.sub}>
-            {contact.icon}
-            <p> {contact.content} </p>
+    <Fragment>
+      <section className={classes.section}>
+        {contacts.map((contact, index) => (
+          <div className={classes.div} key={index}>
+            <h1> {contact.name} </h1>
+            <div className={classes.sub}>
+              {contact.icon}
+              <p> {contact.content} </p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </section>
+
       <div
         style={{
           display: "flex",
           width: "80%",
           margin: "auto",
           justifyContent: "center",
+          marginBottom: "50px",
         }}
       >
         <iframe
@@ -64,7 +69,7 @@ const ContactPage = () => {
           loading="lazy"
         ></iframe>
       </div>
-    </section>
+    </Fragment>
   );
 };
 

@@ -5,7 +5,8 @@ const BackGround = () => {
     <section className={classes.section}>
       <h1 className={classes.name}> Hey! I am Thilina </h1>
       <h4 className={classes.h4}>
-        A passionating and hard working IT student who is seeking for an opportunity
+        A passionating and hard working Technology enthusiastic developer
+         who is seeking for an opportunities
         to learn more about software development......
       </h4>
       

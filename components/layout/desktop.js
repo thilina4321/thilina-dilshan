@@ -4,7 +4,7 @@ import classes from "./desktop.module.css";
 const Desktop = () => {
   return (
     <header className={classes.header}>
-      <h1 className={classes.h1}> Thilina </h1>
+      <h3 className={classes.h1}> Thilina </h3>
       <Link href="/">
         <a>
           <p> HOME </p>
