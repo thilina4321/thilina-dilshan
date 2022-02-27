@@ -38,8 +38,9 @@ const Projects = () => {
             <img src={pro.image} alt={pro.title} height={200} width={`100%`} />
             <h3> {pro.title} </h3>
             <p>
-              {" "}
-              <a className={classes.a}> View </a>{" "}
+              <a href={pro.url} target="_blank" className={classes.a}>
+                View
+              </a>
             </p>
           </div>
         ))}
