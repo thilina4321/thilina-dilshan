@@ -12,7 +12,7 @@ const Projects = () => {
     {
       id: 2,
       image: "/disney.png",
-      title: "Chat Application",
+      title: "Disney Clone",
       url: "https://react-disney-clone-dd5d8.web.app/home",
     },
     {
