@@ -5,13 +5,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      image: "/chat.png",
+      image: "/chat.PNG",
       title: "Chat Application",
       url: "https://chat-node-socket-thilina1234.herokuapp.com",
     },
     {
       id: 2,
-      image: "/disney.png",
+      image: "/disney.PNG",
       title: "Disney Clone",
       url: "https://react-disney-clone-dd5d8.web.app/home",
     },
