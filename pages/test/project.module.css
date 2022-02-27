@@ -1,0 +1,36 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10rem auto;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 1rem auto;
+  flex-wrap: wrap;
+}
+
+.project {
+  height: 350px;
+  padding: 1rem;
+  min-width: 200px;
+  width: 300px;
+  box-shadow: 2px 2px 8px #eee;
+  margin: 1rem;
+  text-align: center;
+}
+
+.a {
+  font-size: 1rem;
+  color: orangered;
+  cursor: pointer;
+}

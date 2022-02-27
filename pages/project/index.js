@@ -11,8 +11,8 @@ const projects = [
     link: "https://react-disney-clone-dd5d8.web.app/home",
     proImage: "/disney.PNG",
     isHost: true,
-  },
-  {
+  }, 
+  { 
     id: 2,
     name: "Chat Application",
     description:
