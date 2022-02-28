@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./project.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   const projects = [
     {
       id: 1,
       image: "/chat.PNG",
       title: "Chat Application",
       url: "https://chat-node-socket-thilina1234.herokuapp.com",
+      
     },
     {
       id: 2,
@@ -29,7 +37,12 @@ const Projects = () => {
     },
   ];
   return (
-    <section id="projects" className={classes.section}>
+    <section
+      data-aos="fade-up-left"
+      data-aos-duration="2000"
+      id="projects"
+      className={classes.section}
+    >
       <h1>Projects</h1>
 
       <div className={classes.projects}>
