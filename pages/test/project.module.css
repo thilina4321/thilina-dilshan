@@ -23,14 +23,20 @@
   height: 350px;
   padding: 1rem;
   min-width: 200px;
-  width: 300px;
+  width: 27%;
   margin: 1rem;
   text-align: center;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   transition: transform 2s;
 }
 
-.project:hover{
+@media (max-width: 500px) {
+  .project {
+    width: 80%;
+  }
+}
+
+.project:hover {
   transform: scale(1.1);
 }
 
@@ -40,7 +46,7 @@
   cursor: pointer;
 }
 
-.a:hover{
+.a:hover {
   border: 1px solid orange;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;

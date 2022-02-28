@@ -10,7 +10,7 @@ const About = () => {
   }, []);
   return (
     <section
-      data-aos="fade-up"
+      data-aos="fade-down"
       data-aos-duration="2000"
       id="about"
       className={classes.section}
