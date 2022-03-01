@@ -31,11 +31,7 @@
   border-radius: 0.5rem;
 }
 
-/* @media (max-width: 500px) {
-  .quote {
-    width: 80%;
-  }
-} */
+
 
 .quote:hover {
   transform: scale(1.04);
