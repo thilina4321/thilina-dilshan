@@ -3,6 +3,7 @@ import About from "./About";
 import Contacts from "./Contacts";
 import First from "./First";
 import Projects from "./Projects";
+import Quotes from "./Quotes";
 import Skills from "./Skills";
 
 const MyApp = () => {
@@ -12,6 +13,7 @@ const MyApp = () => {
       <About />
       <Skills />
       <Projects />
+      <Quotes />
       <Contacts />
     </Fragment>
   );

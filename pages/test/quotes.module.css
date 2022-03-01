@@ -1,0 +1,57 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1d25;
+  color: #fff;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  padding: 10rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.quote {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border: 2px solid #eee;
+  transition: transform 2s;
+  flex: 1;
+}
+
+/* @media (max-width: 500px) {
+  .quote {
+    width: 80%;
+  }
+} */
+
+.quote:hover {
+  transform: scale(1.04);
+}
+
+.quote h3{
+    margin: 0;
+}
+
+.quote h5{
+    margin: 0;
+}
+
+.quote h2{
+    font-size: 2rem;
+}
+
+.quote h2 bold {
+    font-size: 5rem;
+    margin: 0;
+}
