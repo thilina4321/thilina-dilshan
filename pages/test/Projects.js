@@ -50,11 +50,11 @@ const Projects = () => {
           <div key={pro.id} className={classes.project}>
             <img src={pro.image} alt={pro.title} height={200} width={`100%`} />
             <h3> {pro.title} </h3>
-            <p>
+           { !pro.notView && <p>
               <a href={pro.url} target="_blank" className={classes.a}>
                 View
               </a>
-            </p>
+            </p>}
           </div>
         ))}
       </div>

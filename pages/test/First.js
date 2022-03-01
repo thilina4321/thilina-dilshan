@@ -18,7 +18,10 @@ const First = () => {
       <div className={classes.name}>
         <h1> Thilina Dilshan </h1>
         <h4> Full Stack Developer </h4>
-        <button className={classes.btn}> <a href="#about"> About Me </a>  </button>
+        {/* <button className={classes.btn}>
+          {" "}
+          <a href="#about"> About Me </a>{" "}
+        </button> */}
       </div>
     </section>
   );
