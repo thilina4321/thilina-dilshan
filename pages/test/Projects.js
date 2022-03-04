@@ -52,7 +52,7 @@ const Projects = () => {
   ];
   return (
     <section
-      data-aos="fade-up-left"
+      data-aos="fade-up"
       data-aos-duration="2000"
       id="projects"
       className={classes.section}
