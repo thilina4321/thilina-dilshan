@@ -18,7 +18,7 @@
   gap: 2rem;
   align-items: center;
   list-style: none;
-  background-color: #1c1d25;
+  /* background-color: #1c1d25; */
   flex-wrap: wrap;
   width: 100%;
   margin: 0;
@@ -35,8 +35,12 @@
 }
 
 .navbar li a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7);
+  font-size: 4rem;
+  font-weight: bold;
+
 
 }
 
