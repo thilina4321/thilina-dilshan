@@ -1,23 +1,29 @@
 .section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    margin: 10rem auto;
-    padding: 1rem;
-    text-align: center;
-  
-  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem auto;
+  padding: 1rem;
+  text-align: center;
+}
 
-  .section img{
-      border-radius: 50%;
-      margin-bottom: 2rem;
-  }
+.section h1 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  font-size: 4rem;
+  color: #eee;
+  margin-bottom: 2rem;
+}
 
-  .section p{
-      width: 60%;
-      font-size: 2rem;
-      line-height: 2rem;
-  }
+.section img {
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.section p {
+  width: 60%;
+  font-size: 2rem;
+  line-height: 2rem;
+}
