@@ -1,0 +1,35 @@
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* width: 100%; */
+    background-color: #e0e0e0;
+    gap: 5rem;
+    padding: 1rem 2rem;
+  
+  }
+  
+  .about {
+    flex: 0.6;
+    background-color: #fff;
+    padding: 2rem;
+    transform: translateY(-290px);
+  }
+  
+  .contact {
+    flex: 0.3;
+    background-color: #fff;
+    padding: 5rem 2rem;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .section h3{
+      padding-bottom: 1rem;
+      border-bottom: 5px solid #66CB8B;
+  }
+  
+  
+  .section li{
+      margin-bottom: 0.5rem;
+  }

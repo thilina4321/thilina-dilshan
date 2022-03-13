@@ -1,7 +1,8 @@
+import React from "react";
+import UpdateComponent from "../components";
 import Head from "next/head";
-import UpdateComponent from "./components";
 
-export default function Home() {
+const Update = () => {
   return (
     <div>
       <Head>
@@ -10,4 +11,6 @@ export default function Home() {
       <UpdateComponent />
     </div>
   );
-}
+};
+
+export default Update;
