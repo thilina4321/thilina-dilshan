@@ -37,6 +37,16 @@ const Recommandations = () => {
           Working with several different projects with the technologies like
           React, Next and Node{" "}
         </p>
+        <h4> Local Guide - Google Map (2020 - present) </h4>
+        <p>
+          {`I am contributing as a google map local guide to improve their service 
+          by getting good and honest ideas about the places that I visit or known.`}
+        </p>
+        <h4> Writer @ Medium (2020 - present) </h4>
+        <p>
+          {`I am wirting articles to the medium website about the technical staffs
+          that I learn.`}
+        </p>
       </div>
     </section>
   );
