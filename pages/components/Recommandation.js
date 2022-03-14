@@ -19,7 +19,7 @@ const Recommandations = () => {
         </p>
         <h4 style={{ marginTop: "3rem" }}>
           {" "}
-          Ishara Dilshan - Software Engineer{" "}
+          Ishara Dilshan - Software Engineer @ Arimac {" "}
         </h4>
         <p>
           {" "}
