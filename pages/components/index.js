@@ -11,7 +11,6 @@ const UpdateComponent = () => {
         <Heading />
         <About />
         <Projects />
-        {/* <Experience /> */}
         <Recommandations />
     </Fragment>
   )
