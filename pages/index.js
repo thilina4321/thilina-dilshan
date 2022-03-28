@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title> Thilina Dilshan! </title>
+        <title> Thilina Dilshan </title>
         <link rel="icon" href="/profile.jpg" />
 
       </Head>
