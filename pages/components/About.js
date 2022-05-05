@@ -8,6 +8,7 @@ const About = () => {
         <h3> About Me </h3>
         <p>{`I am undergraduate, with an interest in Full-stack software development, I am keen in learning new technologies specially in javascript world, and increasing my knowledge in them. `}</p>
         <p>{`I am seeking new opportunities to improve my experience and like to produce amazing new things to the world.`}</p>
+        <a className={classes.a} href="https://skyline.github.com/thilina4321" target="_blank"> GitHub Skyline </a>
       </div>
       <div className={classes.contact}>
         <h3> Attended </h3>
